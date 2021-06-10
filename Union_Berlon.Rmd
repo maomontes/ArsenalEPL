@@ -1,0 +1,23 @@
+---
+title: "Union Berlin"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(tidyverse)
+library(worldfootballR)
+
+library(ggrepel)
+library(viridis)
+library(RColorBrewer)
+library(wesanderson)
+library(gghighlight)
+
+theme_set(theme_minimal())
+```
+
